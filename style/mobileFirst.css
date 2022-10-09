@@ -38,6 +38,9 @@ main > section {
 main > section > article#img {
     margin-bottom: 10px ;
 }
+main > section > article#img2 {
+    display: none;
+}
 
 main > section > article#img > img {
     width: var(--img-size);
@@ -74,4 +77,8 @@ main > section > article#login > form#form > .bot {
     border-radius: 5px;
     padding: 5px;
     background-color: var(--cor2-white);
+}
+main > section > article#login > form#form > .bot:active {
+    background-color: #bec0ca;
+    transition-duration: 0.1s;
 }

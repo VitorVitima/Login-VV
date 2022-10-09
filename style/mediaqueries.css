@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+@media (min-width: 700px) and (max-width: 1199px) {
+    main > section {
+        flex-direction: row-reverse;
+        width: 100vw;
+        justify-content: right;
+    }
+    main > section > article#img {
+        display: none;
+    }
+    main > section > article#img2 {
+        display: block;
+        background-image: url('../image/gato700.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: top left;
+        width: 47vw;
+        height: 100vh;
+    }
+    main > section > article#login {
+        margin: auto;
+    }
+}
+
+@media (min-width: 1200px) {
+    main > section > article#img {
+        display: none;
+    }
+    main > section {
+        background: url('../image/wallMoreColor.jpg') ;
+        background-size: cover;
+        background-position: left top;
+        width: 100vw;
+        height: 100vh;
+        justify-content: center;
+        align-items: start;
+    }
+    main > section > article#login {
+        margin-left: 50px;
+    }
+}
