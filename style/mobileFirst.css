@@ -1,0 +1,76 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--cor2-white);
+}
+
+:root {
+    --cor1-black: #131515 ;
+    --cor2-white: #E9EBF8 ;
+    --cor3-yellow: #F5E663 ;
+    --cor4-purple: #7D5BA6 ;
+
+    --img-size: 150px;
+}
+main {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    background-color: var(--cor1-black);
+    
+}
+main > section {
+    background-color: var(--cor1-black);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+}
+
+/* Image part */
+
+main > section > article#img {
+    margin-bottom: 10px ;
+}
+
+main > section > article#img > img {
+    width: var(--img-size);
+    height: var(--img-size);
+}
+
+/* Login Part */
+
+main > section > article#login {
+    background-color: var(--cor4-purple);
+    width: 300px;
+    height: 270px;
+    border-radius: 10px;
+    padding: 20px 5px;
+    text-align: center;
+}
+main > section > article#login > form#form {
+    width: 225px;
+    margin: 15px auto;
+}
+main > section > article#login > form#form > .text {
+    margin: 15px 0px;
+    padding: 5px;
+    width: 200px;
+    background-color: var(--cor2-white);
+    border-style: none;
+    border-radius: 5px;
+}
+main > section > article#login > form#form > .bot {
+    color: var(--cor1-black);
+    width: 100px;
+    border-style: none;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: var(--cor2-white);
+}

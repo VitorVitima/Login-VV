@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="image/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style/mobileFirst.css" media="all">
+    <title>Login</title>
+</head>
+<body>
+    <main>
+        <section>
+            <article id="img">
+                <img src="image/moonCatCuted.jpg" alt="Moon-cat">
+            </article>
+
+            <article id="login">
+                <h1>Login</h1>
+
+                <form action="form.js" method="post" id="form">
+                        <label for="imail">E-mail</label>
+                        <input class="text" type="email" name="email" id="imail" required placeholder="Touch">
+                    <br>
+                        <label for="isenha">Senha</label>
+                        <input class="text" type="password" name="senha" id="isenha" minlength="8" max="20" required placeholder="Touch">
+                    <br>
+                    <input class="bot" type="submit" id="enviar" value="Enviar">
+                    <input class="bot" type="reset" id="resetar" value="Limpar">
+                </form>
+            </article>
+        </section>
+    </main>
+</body>
+</html>
