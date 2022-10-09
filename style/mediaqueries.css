@@ -38,5 +38,18 @@
     }
     main > section > article#login {
         margin-left: 50px;
+        height: 400px;
+    }
+    main > section > article#login > h1 {
+        font-size: 29px;
+    }
+    main > section > article#login > h1::after {
+        content: ' \2709' ;
+    }
+    main > section > article#login > form#form > .text {
+        margin-top: 20px;
+    }
+    main > section > article#login > form#form > .bot {
+        margin-top: 10px;
     }
 }
