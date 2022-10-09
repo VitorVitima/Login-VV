@@ -60,6 +60,7 @@ main > section > article#login > form#form {
 }
 main > section > article#login > form#form > .text {
     margin: 15px 0px;
+    color: var(--cor1-black);
     padding: 5px;
     width: 200px;
     background-color: var(--cor2-white);
